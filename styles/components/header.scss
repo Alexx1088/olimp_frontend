@@ -1,0 +1,23 @@
+.header {
+  padding-top: 35px;
+}
+
+.header__address,
+.header__phone {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__address {
+  max-width: 455px;
+}
+
+.header__phone {
+  max-width: 380px;
+}
+
+.header__phone-number {
+  color: $color-blue;
+}

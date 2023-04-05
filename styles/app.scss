@@ -1,3 +1,8 @@
 @import "./reset";
+@import "./helpers";
+@import "./vars";
 
-@import "./container";
+@import "./components/container";
+@import "./components/header";
+@import "./components/text";
+@import "./components/button";

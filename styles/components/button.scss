@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  border-radius: 20px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 44px;
+}
+
+.button_green {
+  color: $color-green;
+  border: 2px solid $color-green;
+}
