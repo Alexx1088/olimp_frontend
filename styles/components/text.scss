@@ -7,10 +7,23 @@
   font-family: "Inter", sans-serif;
 }
 
+.text_sf {
+  font-family: "sf", sans-serif;
+}
+
 .text_gradient {
   background: linear-gradient(158deg, #1493fa 0%, #8ac9fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+@font-face {
+  font-family: "sf";
+  font-style: normal;
+  font-weight: 400;
+  src: local("sf"),
+  url("/assets/fonts/SFProDisplay-Regular.woff2") format("woff2"),
+  url("/assets/fonts/SFProDisplay-Regular.woff") format("woff");
 }
