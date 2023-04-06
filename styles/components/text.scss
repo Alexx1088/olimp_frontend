@@ -11,6 +11,11 @@
   font-family: "sf", sans-serif;
 }
 
+.text_sf_regular {
+  font-family: "sf_regular", sans-serif;
+  font-size: 25px;
+}
+
 .text_gradient {
   background: linear-gradient(158deg, #1493fa 0%, #8ac9fc 100%);
   -webkit-background-clip: text;
@@ -19,11 +24,26 @@
   text-fill-color: transparent;
 }
 
+.text_analyzes {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 120px;
+ }
+
+
 @font-face {
   font-family: "sf";
   font-style: normal;
   font-weight: 400;
   src: local("sf"),
-  url("/assets/fonts/SFProDisplay-Regular.woff2") format("woff2"),
-  url("/assets/fonts/SFProDisplay-Regular.woff") format("woff");
+  url("../../assets/fonts/SFProDisplay-Semibold.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "sf_regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("sf"),
+  url("../../assets/fonts/SFProDisplay-Regular.woff2") format("woff2")
 }

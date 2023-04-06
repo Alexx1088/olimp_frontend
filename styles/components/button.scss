@@ -13,3 +13,14 @@
   color: $color-green;
   border: 2px solid $color-green;
 }
+
+.button_blue {
+  color: $color-blue;
+  border: 2px solid $color-blue;
+}
+
+.button_fill_blue {
+  color: $color-white;
+  background: linear-gradient(126deg, #1493FA 0%, #8AC9FC 100%);
+  border-radius: 20px;
+}

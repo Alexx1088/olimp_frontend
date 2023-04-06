@@ -1,0 +1,28 @@
+.section {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.section__address,
+.section__phone {
+
+}
+
+.section__address {
+  margin-top: 60px;
+  max-width: 385px;
+}
+
+.section_header {
+  width: 877px;
+}
+
+
+
+.header__phone {
+  max-width: 380px;
+}
+
+.header__phone-number {
+  color: $color-blue;
+}
